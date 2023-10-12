@@ -1,0 +1,109 @@
+/* Default styles */
+h1, h2 {
+   text-align: center;
+   margin: auto;
+}
+
+.bg-textone {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  background-image: url('https://source.unsplash.com/0tgMnMIYQ9Y.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+th, del, b, h3 {
+  font-weight: normal;
+}
+
+th {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+}
+
+del {
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+}
+
+b {
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+h3 {
+  font-size: 30px;
+  color: rgb(198, 6, 57);
+}
+
+body {
+  background: rgb(214, 156, 156);
+  font: 18px Courier, sans-serif;
+}
+
+table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+td.solid {
+  border-style: solid;
+  border-color: rgb(233, 10, 14);
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(209, 92, 92);
+  padding: 10px;
+}
+
+td {
+  background-color: #BA7E73;
+}
+
+.center{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 200px;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Add responsive styles for screens less than 768px wide */
+  table {
+    position: static;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Add responsive styles for screens less than 480px wide */
+  th {
+    font-size: 24px;
+  }
+
+  del {
+    font-size: 20px;
+  }
+
+  b {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .bg-text {
+    padding: 20px;
+  }
+}

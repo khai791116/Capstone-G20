@@ -1,0 +1,143 @@
+
+.registration {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.registration label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration input[type="text"],
+.registration input[type="password"],
+.registration input[type="email"],
+.registration input[type="date"],
+.registration select,
+.registration input[type="color"],
+.registration input[type="range"],
+.registration input[type="search"],
+.registration textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.registration input[type="text"]:focus,
+.registration input[type="password"]:focus,
+.registration input[type="email"]:focus,
+.registration input[type="date"]:focus,
+.registration select:focus,
+.registration input[type="color"]:focus,
+.registration input[type="range"]:focus,
+.registration input[type="search"]:focus,
+.registration textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.registration select {
+    height: 35px;
+}
+
+.registration input[type="radio"],
+.registration input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.registration button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #0056b3;
+}
+
+.registration fieldset:nth-of-type(1) {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.registration fieldset:nth-of-type(1) legend {
+    font-weight: bold;
+    background-color: #0a2f56;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.registration fieldset:nth-of-type(2) {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.registration fieldset:nth-of-type(2) legend {
+    font-weight: bold;
+    background-color: #06305e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.registration input[type="radio"],
+.registration input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.registration fieldset p {
+    margin: 5px 0;
+}
+
+.registration .player-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.registration .player-list label {
+    margin-right: 10px;
+}
+
+.registration .player-list label:last-child {
+    margin-right: 0;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #28b352;
+}
+
+.registration p label {
+    text-align: left;
+}
+
+
